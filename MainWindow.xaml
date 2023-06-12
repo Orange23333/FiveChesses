@@ -1,0 +1,22 @@
+﻿<Window x:Class="FiveChesses.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FiveChesses"
+        mc:Ignorable="d"
+        Title="五子棋" Height="450" Width="800">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="32"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid x:Name="ToolGrid" Grid.Row="0">
+			<Button x:Name="button_Back" Content="悔棋" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Click="button_Back_Click"/>
+			<Button x:Name="button_Reset" Content="重置" Margin="43,0,0,0" VerticalAlignment="Center" Click="button_Reset_Click" HorizontalAlignment="Left" Width="28"/>
+			<Label x:Name="label_CurrentPlayer" Content="当前：红方" Margin="0,3.5,10,0" HorizontalAlignment="Right" Height="25" VerticalAlignment="Center"/>
+		</Grid>
+		<Grid x:Name="ChessBoard" Grid.Row="1">
+		</Grid>
+	</Grid>
+</Window>
