@@ -8,6 +8,9 @@
     <Authors>Orange233</Authors>
     <Company>Bisitsoft</Company>
     <Copyright>Copyright (c) 2022 Orange233</Copyright>
+    <PackageLicenseFile>D:\Work\Project\Game\Other\FiveChesses\LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/Orange23333/GiveChesses</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
