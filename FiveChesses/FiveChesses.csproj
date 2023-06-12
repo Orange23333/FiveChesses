@@ -5,6 +5,9 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <Authors>Orange233</Authors>
+    <Company>Bisitsoft</Company>
+    <Copyright>Copyright (c) 2022 Orange233</Copyright>
   </PropertyGroup>
 
 </Project>
